@@ -1,0 +1,13 @@
+.cal{
+background-color:rgb(69, 67, 67) ;
+padding:10px;
+}
+
+
+@media screen and (max-width:500px){
+    .cal{
+        width: 100%;
+       margin: auto;
+       /* border:1px solid red; */
+    }
+}
