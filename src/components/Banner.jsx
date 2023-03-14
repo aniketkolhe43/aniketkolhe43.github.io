@@ -15,18 +15,9 @@ function Banner() {
         <div className="banner-content">
           <h6>Hello, I'm Aniket Kolhe</h6>
           <h3> Technical Support Enginner</h3>
-          <h3>
-            About me
-          </h3>
-          <p>
-            Aspiring Customer service-focused Technical support specialist. As a Technical Support Engineer,
-             committed to providing the highest customer service and support. Technical expertise spans various areas, 
-             including hardware, software, network administration, and security. proficient in diagnosing and resolving issues with servers,
-            workstations, and other computer peripherals.
-          </p>
           <a
             className="btn"
-            href="Aniket_Kolhe_Resume.pdf" download="Aniket_Kolhe_Resume"
+            href="fw21_0914-Aniket-Kolhe-Resume.pdf" download="fw21_0914-Aniket-Kolhe-Resume"
             target="">
             Resume  <DownloadIcon />
           </a>

@@ -17,6 +17,7 @@
 }
 .title{
   color:white;
+  text-align: center;
 }
 .imgg > img {
   height: 200px;

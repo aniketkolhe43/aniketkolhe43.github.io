@@ -12,7 +12,7 @@ function Projects() {
       gLink: "https://github.com/aniketkolhe43/Github-Onbording",
       dLink: "https://dainty-pasca-9aaf67.netlify.app/",
       des: "GitHub, Inc. is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project",
-      tstack: ["HTML", "CSS", "JAVASCRIPT", "Tool :- Revel.js"]
+      tstack: ["HTML", "CSS", "JAVASCRIPT"]
     },
     {
       title: "Asos Fashion Website clone",
