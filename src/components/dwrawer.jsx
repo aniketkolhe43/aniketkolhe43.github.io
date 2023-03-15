@@ -1,4 +1,4 @@
-import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, FormLabel, Input, InputGroup, InputLeftAddon, InputRightAddon, Stack, Textarea, useDisclosure } from "@chakra-ui/react"
+import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent,  DrawerOverlay, Stack,  useDisclosure } from "@chakra-ui/react"
 import React from "react"
 import {HamburgerIcon } from '@chakra-ui/icons'
 function DrawerExample() {
@@ -6,7 +6,7 @@ function DrawerExample() {
     const firstField = React.useRef()
   
     return (
-      <>
+      <Box  > 
         <Button  colorScheme='none' textAlign="center" onClick={onOpen}><HamburgerIcon/>
         </Button>
         <Drawer
@@ -17,23 +17,24 @@ function DrawerExample() {
         >
           <DrawerOverlay />
           <DrawerContent>
-            <DrawerCloseButton />
+            <DrawerCloseButton color={"white"} />
            
-            <DrawerBody>
+            <DrawerBody  bg={"black"} color="white">
               <Stack spacing='24px'>
-              <Box display="flex" justifyContent="center" alignItems="center" flexDirection="column" mt={20} gap={10}>
+              <Box display="flex" justifyContent="center" alignItems="center" flexDirection="column" mt={20} gap={10} >
         <a href="#home">Home</a>
+        <a href="#about">About Me</a>
         <a href="#Skills">Skills</a>
         <a href="#Project" >Project</a>
         <a href="#Contact">Contact</a>
-        <a href="#">Resume</a>
+        <a href="#Resume">Resume</a>
       </Box>
 
               </Stack>
             </DrawerBody>
           </DrawerContent>
         </Drawer>
-      </>
+      </Box>
     )
   }
   export default DrawerExample

@@ -2,7 +2,7 @@ import React from 'react'
 import "./SinglePage.css"
 
 const SingleProject = ({title,img,gLink,dLink,des,tstack}) => {
-    console.log(title);
+   
   return (
     <div className='SingleProject-box'>
       <h3>{title}</h3>

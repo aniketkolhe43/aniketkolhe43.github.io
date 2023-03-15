@@ -3,11 +3,12 @@ import React from "react";
 import "./Banner.css";
 // import cv from "../Assets/Manoj_Kumar_Resume.pdf";
 import { DownloadIcon } from '@chakra-ui/icons'
+import { Box } from "@chakra-ui/react";
 
 
 function Banner() {
   return (
-    <div id="ban" >
+    <Box id="ban" bgGradient='linear(to-r, red.200, yellow.300, pink.300)' >
 
 
       <div className="banner-wrapper" id="home">
@@ -23,7 +24,7 @@ function Banner() {
           </a>
         </div>
       </div>
-    </div>
+    </Box>
   );
 }
 
