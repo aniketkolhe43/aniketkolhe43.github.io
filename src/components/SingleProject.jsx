@@ -8,7 +8,7 @@ const SingleProject = ({title,img,gLink,dLink,des,tstack,fet}) => {
       <h3>{title}</h3>
       <img src={img} alt="project-img" />
       <p>{des}</p>
-      <p id='fet'>Fetures :-{fet} </p>
+      <p id='fet'>Features :-{fet} </p>
       <div className='button-box'>
         <div>
         <button><a href={gLink} rel="noreferrer"  target="_blank">Code</a></button>
