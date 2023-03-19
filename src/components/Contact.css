@@ -1,13 +1,25 @@
-.contact .contact-item {
-    width: 100%;
+.contact{
+  width: 100%;
+  background-color: rgb(16, 15, 15);
+  margin-top:0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+ .contact-item {
+    width: 70%;
     padding: 10px 90px;
-    background-color: rgb(69, 67, 67);
-    margin-top:0;
+    margin: auto;
+    border: 6px solid yellow;
+    border-radius: 10px;
   }
-  .title {
-    width: 90%;
-    font-size: 24px;
+  .contact h2 {
+    
+    font-size: 27px;
     font-weight: 700;
+    color: white;
+    text-align: center;
+    
   }
   .contact-item > div {
     width: 50%;

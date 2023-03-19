@@ -12,14 +12,13 @@ function Banner() {
 
 
       <div className="banner-wrapper" id="home">
-        <img src="/Aniket.png" alt="" />
+        <img src="/Aniket-rembg.png" alt="" />
         <div className="banner-content">
           <h6>Hello, I'm Aniket Kolhe</h6>
           <h3> Technical Support Enginner</h3>
-          <a
-            className="btn"
+          <a className="btn"
             href="fw21_0914-Aniket-Kolhe-Resume.pdf" download="fw21_0914-Aniket-Kolhe-Resume"
-            target="">
+            target=""  onClick={()=>window.open("https://drive.google.com/file/d/15JDk5kGkMSXN5XLz3RJ8k_Yc1zMoCl_j/view?usp=share_link","_blank")}>
             Resume  <DownloadIcon />
           </a>
         </div>

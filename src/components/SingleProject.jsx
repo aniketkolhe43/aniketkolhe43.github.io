@@ -1,13 +1,14 @@
 import React from 'react'
 import "./SinglePage.css"
 
-const SingleProject = ({title,img,gLink,dLink,des,tstack}) => {
+const SingleProject = ({title,img,gLink,dLink,des,tstack,fet}) => {
    
   return (
     <div className='SingleProject-box'>
       <h3>{title}</h3>
       <img src={img} alt="project-img" />
       <p>{des}</p>
+      <p id='fet'>Fetures :-{fet} </p>
       <div className='button-box'>
         <div>
         <button><a href={gLink} rel="noreferrer"  target="_blank">Code</a></button>

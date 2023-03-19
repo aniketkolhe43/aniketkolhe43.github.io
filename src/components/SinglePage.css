@@ -1,7 +1,8 @@
 .SingleProject-box{
-    border: 2px solid rgb(238, 230, 230);
-    border-radius: 2px;
+    
+    border-radius: 10px;
     padding: 15px;
+    background-color: #040404;
 }
 .SingleProject-box>h3{
     font-size: 26px;
@@ -20,11 +21,11 @@
 }
 .button-box>div>button{
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     margin-top: 20px;
     border-radius: 5px;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
 
 }
@@ -44,13 +45,17 @@
     /* border: 1px solid red; */
 }
 .button-box>div>button:hover{
-    background-color: black;;
+    background-color: rgb(0, 220, 0);;
     color: white;
 }
 .tstack{
     display: flex;
     gap: 10px;
     color: white;
+}
+#fet{
+    font-size: 18px;
+    font-weight:200;
 }
 
 

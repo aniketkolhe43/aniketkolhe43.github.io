@@ -18,6 +18,12 @@
     /* border: 1px solid red; */
 }
 
+.resbtn{
+    
+    font-weight:bolder;
+    color: yellow;
+}
+
 .option{
     display: flex;
     justify-content: space-around;

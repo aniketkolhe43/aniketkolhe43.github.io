@@ -1,28 +1,28 @@
 #Project {
-  background-color: rgb(69, 67, 67);
-  padding: 10px;
+  background-color: rgb(37, 35, 35);
+  padding: 0px;
   margin: 0;
 }
 .project-box {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: 800px;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
-  row-gap: 20px;
-  padding: 5px;
+  column-gap: 15px;
+  row-gap: 5px;
+  padding: 23px;
   margin-top: -200;
-  background-color: #171d1b;
   margin:auto;
 }
 h2 {
-  text-transform: uppercase;
+  text-align: center;
+
   font-size: 24px;
   line-height: 60px;
   font-weight: 900;
-  width: 90%;
+  width: 100%;
   margin: auto;
   /* background-color: red; */
 
@@ -30,7 +30,7 @@ h2 {
 .pro{
   margin-top: 80px;
   /* border: 1px solid black; */
-  width:90%;
+  width:100%;
   margin:auto;
 }
 @media (max-width: 900px) {
@@ -50,7 +50,7 @@ h2 {
   }
 
   h2 {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: auto;
   }

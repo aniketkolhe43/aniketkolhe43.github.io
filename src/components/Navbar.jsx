@@ -21,10 +21,13 @@ const Navbar = () => {
           <a href="#home">Home</a>
           <a href="#about">About Me</a>
           <a href="#Skills">Skills</a>
-          <a href="#Project">Project</a>
+          <a href="#Project">Projects</a>
           <a href="#Contact">Contact</a>
-          <a href="https://drive.google.com/file/d/15JDk5kGkMSXN5XLz3RJ8k_Yc1zMoCl_j/view?usp=share_link"
-            target="_blank" rel="noreferrer"> Resume</a>
+          <a className='resbtn'
+            href="fw21_0914-Aniket-Kolhe-Resume.pdf" download="fw21_0914-Aniket-Kolhe-Resume"
+            target=""  onClick={()=>window.open("https://drive.google.com/file/d/15JDk5kGkMSXN5XLz3RJ8k_Yc1zMoCl_j/view?usp=share_link","_blank")}>
+            Resume  
+          </a>
         </div> :
         <DrawerExample />
       }
